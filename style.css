@@ -1,0 +1,3924 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+.styleContainerPai {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 98.7vw;
+    height: 650px;
+    position: relative;
+}
+
+
+
+.estiloVideo {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    transform: rotate(180deg);
+}
+
+
+
+.divTitulo {
+
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Estilos de gradiente overlay */
+.hero-title {
+    font-size: 6rem;
+    line-height: 1em;
+    font-weight: 800;
+}
+
+.blend {
+    mix-blend-mode: exclusion !important;
+    color: #efefef;
+    /* Cor do texto no modo de mistura */
+    position: absolute;
+    z-index: 2;
+}
+
+.modalLightBlend {
+    mix-blend-mode: lighten !important;
+    color: #efefef;
+    /* Cor do texto no modo de mistura */
+    position: absolute;
+    z-index: 2;
+}
+
+
+.estiloSessaApresentacao {
+
+    display: flex;
+    gap: 500px;
+    flex-direction: column;
+
+}
+
+.alinhamentoTituloSessaoApresentacao {
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+
+}
+
+.h2estiloTituloSessaoApresentacao {
+    text-align: center;
+    color: #DAA520;
+    font-size: 1.5rem;
+}
+
+.estiloTituloSessaoApresentacao {
+
+    font-size: 3.2rem;
+    color: white;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.estiloDivOndas {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #121115;
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.estiloDivOndas::before {
+    content: "";
+    background-color: #121115;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.estiloDivOndas::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 45vw;
+    border-top-left-radius: 15vw;
+
+}
+
+
+
+.estiloAlinhaDIvOndas2 {
+    height: 25vw;
+    background-color: #121115;
+    position: relative;
+}
+
+.estiloDivOndas2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.estiloDivOndas2::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.estiloDivOndas2::after {
+    content: "";
+    background-color: #121115;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+    border-top-left-radius: 15vw;
+
+}
+
+
+.carrosel {
+    width: 47vw;
+    height: 70vw;
+    position: relative;
+    top: 39vw;
+    left: 25vw;
+
+}
+
+.carroselPai {
+    height: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.carroselFilho {
+    height: 422px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.carroselFilhoLight {
+    height: 422px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(36, 148, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.carroselFilhoLight:hover {
+
+    transform: translateY(-2px);
+    transition: transform .3s;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+}
+
+.carroselFilho:hover {
+
+    transform: translateY(-2px);
+    transition: transform .3s;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+}
+
+.elementosServicosEspecializadoFlex {
+    width: 225px;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imagemPacotes {
+    position: relative;
+    top: -15%;
+    width: 225px;
+    height: 200px;
+    background-size: contain;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: transform 0.3s
+}
+
+.elementosServicosEspecializadoFlex:hover .imagemPacotes {
+    transform: scale(1.1);
+}
+
+.informacoesPacotes {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.iconAviao {
+    height: 30px;
+}
+
+.tituloCidadePacotes {
+    margin-left: 10%;
+
+}
+
+.paragrafoCidadePacotes {
+    margin-left: 10%;
+    color: #DAA520;
+}
+
+.divAlinhamentoFlexInformacoes {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.apresentacaoCarrosselPacotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    position: absolute;
+    top: 140%;
+    left: 17%;
+}
+
+.apresentacaoCarrosselPacotes2 {
+    position: absolute;
+    top: 150%;
+    left: 17%;
+}
+
+.coresFrasesDiferentes {
+    color: #DAA520;
+}
+
+.botaoCarrossel {
+    position: absolute;
+    top: 20%;
+
+}
+
+.imagemBotaoCarrossel {
+    width: 40px;
+    color: #DAA520
+}
+
+.carrosel2 {
+    width: 47vw;
+    height: 70vw;
+    position: relative;
+    top: 39vw;
+    left: -17vw;
+
+}
+
+.carroselPai2 {
+    height: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.carroselFilho2 {
+    height: 422px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.carroselFilho2:hover {
+
+    transform: translateY(-2px);
+    transition: transform .3s;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+}
+
+.apresentacaoCarrosselPassagens {
+    position: absolute;
+    top: 145%;
+    left: 60%;
+}
+
+.apresentacaoCarrosselPassagens2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 135%;
+    left: 60%;
+    gap: 10px;
+}
+
+.divAlinhamentoFlexInformacoes2 {
+
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoDescricaoHoteis {
+    margin-left: 0%;
+    color: #DAA520;
+}
+
+.paragrafoCidadeHoteis {
+
+    margin: 0;
+    font-size: .9rem;
+}
+
+.coresParagrafoDiferentes {
+    color: #DAA520;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tituloCidadeHoteis {
+    margin-left: 10%;
+}
+
+.alinhamentoInformarcoesVoos {
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.alinhamentoInformacoesHoteis {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    background-color: #121115;
+}
+
+.h2Rodape {
+    font-size: 3.2rem;
+    color: #DAA520;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rodapeContato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    color: white;
+}
+
+.rodapeLocalizacao {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.paragrafoSublinhado {
+    color: #DAA520;
+    font-weight: bold;
+}
+
+.rodapeBtn {
+    border: none;
+    width: 246px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+
+
+.alinhamentoParagrafoImagem {
+    display: flex;
+    margin-left: 10%;
+}
+
+.estiloCarrossel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.modalContent {
+    width: 50vw;
+    background-color: #121115;
+
+}
+
+.modalHeader {
+    border-bottom: 1px solid #121115;
+    background-color: #DAA520;
+    color: #121115;
+    font-weight: 800;
+}
+
+.modalFooter {
+    border-top: 1px solid #121115;
+    background-color: #DAA520;
+}
+
+.estilocorpoModalPai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #DAA520;
+    padding: 0px;
+    padding-top: 40px;
+    margin-top: 5%;
+
+
+
+
+
+}
+
+.botaoCarrossel {
+    height: 100px;
+}
+
+.estiloCorpoFilhoPrincipal {
+    border-right: 1px dashed white;
+    width: 530px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.estiloCorpoFilhoSubSessao {
+    width: 170px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoModal {
+    font-weight: 500;
+    color: white;
+    margin-top: -5px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal1 {
+    width: 80px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.estiloDivAlinhaElementosTempoDeViagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafoModalVooDireto {
+    margin-top: -15%;
+    color: #DAA520;
+    font-weight: 700;
+}
+
+.paragrafoModalVooDireto1 {
+    color: white;
+    border-bottom: 2px solid #DAA520;
+}
+
+.coresDiferentes {
+    color: #DAA520;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-weight: 800;
+
+}
+
+.estiloAlinhaIformacoesDiaVoo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+
+.paragrafoValorTotal {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.estiloAlinhaInformacoesTaxa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paragrafoValorTotal2 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+.estiloAlinhaInformacoesValorTotal {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.modalPaiDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.alinhaBotao {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoComprar {
+    border: none;
+    width: 146px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.botaoComprar:hover {
+    transform: translateY(-1px);
+    transition: transform .7s;
+    -webkit-box-shadow: 0px 0px 10px 0px #DAA520;
+    -moz-box-shadow: 0px 0px 10px 0px #DAA520;
+    box-shadow: 0px 0px 10px 0px #DAA520;
+}
+
+.alinhaElementos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhaDadosPrincipais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divPagamentoPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121115;
+    padding: 20px;
+    height: 0;
+    transition: height .5s ease-out;
+
+}
+
+.divPagamentoPai.mostrar {
+    height: 250px;
+
+}
+
+.inputs {
+    background-color: #121115;
+    border: .5px solid #DAA520;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.inputs:focus {
+    color: #DAA520;
+    background-color: #121115;
+    border: #DAA520;
+    color: white;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+input[type="text"] {
+    color: white;
+}
+
+input[type="number"] {
+    color: white;
+}
+
+.h2tituloPagamento {
+    color: #DAA520;
+    font-size: 1rem;
+}
+
+.alinhaBagagem {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.iconBagagem {
+    color: #DAA520;
+
+}
+
+/* Estilize o switch (a parte do slider) */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Estilize o checkbox (oculto) */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Estilize o slider (círculo) */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+/* Mude a cor do slider quando o checkbox estiver marcado (checked) */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-image: url("./lua.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #DAA520;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #DAA520;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-image: url("./sol.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Estilize a label (opcional) */
+.switch label {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.modalLight {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: rgb(36, 148, 153);
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.modalLight::before {
+    content: "";
+    background-color: rgb(36, 148, 153);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.modalLight::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 45vw;
+    border-top-left-radius: 15vw;
+
+}
+
+
+
+.modalLight2estiloAlinhaDIvOndas2 {
+    height: 25vw;
+    background-color: rgb(36, 148, 153);
+    position: relative;
+}
+
+.modalLight2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.modalLight2::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.modalLight2::after {
+    content: "";
+    background-color: rgb(36, 148, 153);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+    border-top-left-radius: 15vw;
+
+}
+
+.modalLight2Footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    background-color: rgb(36, 148, 153);
+}
+
+.containerCabecalho {
+    background-color: transparent;
+
+}
+
+.alianhamentoBotaoCabecalho {
+    display: flex;
+    gap: 15px;
+}
+
+.divMenuCabecalho {
+    background-color: #121115;
+    color: white;
+}
+
+.divMenuCabecalho a {
+    color: white;
+    border-bottom: 1px solid #DAA520;
+    font-weight: 500;
+}
+
+.divMenuCabecalho a:hover {
+    color: #DAA520;
+}
+
+.divMenuCabecalhoLigth {
+    background-color: rgb(36, 148, 153);
+    color: white;
+}
+
+.divMenuCabecalhoLigth a {
+    color: white;
+    border-bottom: 1px solid #DAA520;
+    font-weight: 500;
+}
+
+.divMenuCabecalhoLigth a:hover {
+    color: #DAA520;
+}
+
+.tituloCabecalho {
+    color: #DAA520;
+
+}
+
+.margin-topDivOndas {
+    margin-top: -40%;
+}
+
+@media screen and (max-width: 1024px) {
+    .containerCabecalho {
+        width: 100vw;
+        height: auto;
+    }
+
+    .styleContainerPai {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .divTitulo {
+
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+        line-height: 1em;
+        font-weight: 800;
+    }
+
+    .blend {
+        mix-blend-mode: exclusion !important;
+        color: #efefef;
+        /* Cor do texto no modo de mistura */
+        position: absolute;
+        z-index: 2;
+    }
+
+    .estiloSessaApresentacao {
+
+        display: flex;
+        gap: 500px;
+        flex-direction: column;
+
+    }
+
+    .alinhamentoTituloSessaoApresentacao {
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+
+    }
+
+    .h2estiloTituloSessaoApresentacao {
+        text-align: center;
+        color: #DAA520;
+        font-size: 1.5rem;
+    }
+
+    .estiloTituloSessaoApresentacao {
+
+        font-size: 3.2rem;
+        color: white;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .estiloDivOndas {
+
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        background-color: #121115;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+        z-index: 1;
+    }
+
+    .margin-topDivOndas {
+        margin-top: -49%;
+    }
+
+
+    .estiloDivOndas::before {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas::after {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 45vw;
+        border-top-left-radius: 15vw;
+
+    }
+
+
+
+    .estiloAlinhaDIvOndas2 {
+        width: 100vw;
+
+        background-color: #121115;
+        position: relative;
+    }
+
+    .estiloDivOndas2 {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        background-color: white;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+    }
+
+    .estiloDivOndas2::before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas2::after {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+        border-top-left-radius: 15vw;
+
+    }
+
+
+    .carrosel {
+        width: 45vw;
+        height: 30vw;
+        position: relative;
+        top: 55vw;
+        left: 21vw;
+
+    }
+
+    .carroselPai {
+        height: 422px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        margin: 0px;
+    }
+
+    .estiloCorpoFilhoPrincipal {
+        height: 322px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight {
+        height: 322px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(36, 148, 153);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .carroselFilho:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .elementosServicosEspecializadoFlex {
+        width: 225px;
+        height: 422px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .imagemPacotes {
+        position: relative;
+        top: -15%;
+        width: 225px;
+        height: 200px;
+        background-size: contain;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transition: transform 0.3s
+    }
+
+    .elementosServicosEspecializadoFlex:hover .imagemPacotes {
+        transform: scale(1.1);
+    }
+
+    .informacoesPacotes {
+        width: 100%;
+        display: flex;
+        gap: 25px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .iconAviao {
+        height: 30px;
+    }
+
+    .tituloCidadePacotes {
+        margin-left: 10%;
+
+    }
+
+    .paragrafoCidadePacotes {
+        margin-left: 10%;
+        color: #DAA520;
+    }
+
+    .divAlinhamentoFlexInformacoes {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    .apresentacaoCarrosselPacotes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        position: absolute;
+        top: 140%;
+        left: 7%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPacotes2 {
+
+        position: absolute;
+        top: 150%;
+        left: 7%;
+        z-index: 2;
+    }
+
+    .h1ApresentaçãoPacotes2 {
+        font-size: 2.1rem;
+    }
+
+    .coresFrasesDiferentes {
+        color: #DAA520;
+    }
+
+    .botaoCarrossel {
+        position: absolute;
+        top: 45%;
+        margin-left: -7%;
+        margin-right: -7%;
+        width: 0px;
+
+
+    }
+
+    .botaoCarrosselMedio {
+        position: absolute;
+        top: 19%;
+        margin-left: -7%;
+        margin-right: -7%;
+        width: 0px;
+    }
+
+    .imagemBotaoCarrossel {
+        width: 40px;
+        color: #DAA520
+    }
+
+    .carrosel2 {
+        width: 47vw;
+        height: 70vw;
+        position: relative;
+        top: 55vw;
+        left: -17vw;
+        z-index: 2;
+
+    }
+
+    .carroselPai2 {
+        height: 422px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+
+    }
+
+    .carroselFilho2 {
+        height: 422px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilho2:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .apresentacaoCarrosselPassagens {
+        position: absolute;
+        top: 145%;
+        left: 65%;
+    }
+
+    .apresentacaoCarrosselPassagens2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 135%;
+        left: 65%;
+        gap: 10px;
+    }
+
+    .h1ApresentaçãoPassagens2 {
+        font-size: 2.1rem;
+    }
+
+    .h1ApresentaçãoHoteis2 {
+        font-size: 2.1rem;
+    }
+
+    .divAlinhamentoFlexInformacoes2 {
+
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .paragrafoDescricaoHoteis {
+        margin-left: 0%;
+        color: #DAA520;
+    }
+
+    .paragrafoCidadeHoteis {
+
+        margin: 0;
+        font-size: .9rem;
+    }
+
+    .coresParagrafoDiferentes {
+        color: #DAA520;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .tituloCidadeHoteis {
+        margin-left: 10%;
+    }
+
+    .alinhamentoInformarcoesVoos {
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .alinhamentoInformacoesHoteis {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+        background-color: #121115;
+    }
+
+    .h2Rodape {
+        font-size: 2.2rem;
+        color: #DAA520;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .rodapeContato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+        color: white;
+    }
+
+    .rodapeLocalizacao {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .paragrafoSublinhado {
+        color: #DAA520;
+        font-weight: bold;
+    }
+
+    .rodapeBtn {
+        border: none;
+        width: 246px;
+        height: 52px;
+        border-radius: 5px;
+        background-color: #DAA520;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+
+    .carroselFilhoLight {
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(36, 148, 153);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+    
+.estiloCorpoFilhoPrincipal {
+    border-right: 1px dashed white;
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.estiloCorpoFilhoSubSessao {
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoModal {
+    font-weight: 500;
+    color: white;
+    margin-top: -5px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal1 {
+    width: auto;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.estiloDivAlinhaElementosTempoDeViagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafoModalVooDireto {
+    margin-top: -15%;
+    color: #DAA520;
+    font-weight: 700;
+}
+
+.paragrafoModalVooDireto1 {
+    color: white;
+    border-bottom: 2px solid #DAA520;
+}
+
+.coresDiferentes {
+    color: #DAA520;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-weight: 800;
+
+}
+
+.estiloAlinhaIformacoesDiaVoo {
+    display: flex;
+    flex-direction:row;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+
+.paragrafoValorTotal {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.estiloAlinhaInformacoesTaxa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paragrafoValorTotal2 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+.estiloAlinhaInformacoesValorTotal {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.modalPaiDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.alinhaBotao {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoComprar {
+    border: none;
+    width: 146px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.botaoComprar:hover {
+    transform: translateY(-1px);
+    transition: transform .7s;
+    -webkit-box-shadow: 0px 0px 10px 0px #DAA520;
+    -moz-box-shadow: 0px 0px 10px 0px #DAA520;
+    box-shadow: 0px 0px 10px 0px #DAA520;
+}
+
+.alinhaElementos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhaDadosPrincipais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divPagamentoPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121115;
+    padding: 20px;
+    height: 0;
+    transition: height .5s ease-out;
+
+}
+
+.divPagamentoPai.mostrar {
+    height: 250px;
+
+}
+
+
+}
+
+@media screen and (max-width:1023px) and (min-width: 767px) {
+    .containerCabecalho {
+        width: 100vw;
+        height: auto;
+    }
+
+    .styleContainerPai {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .divTitulo {
+
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        line-height: 1em;
+        font-weight: 800;
+    }
+
+    .blend {
+        mix-blend-mode: exclusion !important;
+        color: #efefef;
+        /* Cor do texto no modo de mistura */
+        position: absolute;
+        z-index: 2;
+    }
+
+    .estiloSessaApresentacao {
+
+        display: flex;
+        gap: 500px;
+        flex-direction: column;
+
+    }
+
+    .alinhamentoTituloSessaoApresentacao {
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+
+    }
+
+    .h2estiloTituloSessaoApresentacao {
+        text-align: center;
+        color: #DAA520;
+        font-size: 1.5rem;
+    }
+
+    .estiloTituloSessaoApresentacao {
+
+        font-size: 3.2rem;
+        color: white;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .estiloDivOndas {
+
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        background-color: #121115;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+        z-index: 1;
+    }
+
+    .margin-topDivOndas {
+        margin-top: -66%;
+    }
+
+
+    .estiloDivOndas::before {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas::after {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 45vw;
+        border-top-left-radius: 15vw;
+
+    }
+
+
+
+    .estiloAlinhaDIvOndas2 {
+        width: 100vw;
+
+        background-color: #121115;
+        position: relative;
+    }
+
+    .estiloDivOndas2 {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        background-color: white;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+    }
+
+    .estiloDivOndas2::before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas2::after {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+        border-top-left-radius: 13vw;
+
+    }
+
+
+    .carrosel {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 77vw;
+        left: 21vw;
+
+    }
+
+    .carroselPai {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        margin: 0px;
+    }
+
+    .estiloCorpoFilhoPrincipal {
+
+        height: 222px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight {
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(36, 148, 153);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .carroselFilho:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .elementosServicosEspecializadoFlex {
+        width: 190px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .imagemPacotes {
+        position: relative;
+        top: -15%;
+        width: 225px;
+        height: 200px;
+        background-size: contain;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transition: transform 0.3s
+    }
+
+    .elementosServicosEspecializadoFlex:hover .imagemPacotes {
+        transform: scale(1.1);
+    }
+
+    .informacoesPacotes {
+        width: 100%;
+        display: flex;
+        gap: 25px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .iconAviao {
+        height: 30px;
+    }
+
+    .tituloCidadePacotes {
+        margin-left: 10%;
+
+    }
+
+    .paragrafoCidadePacotes {
+        margin-left: 10%;
+        color: #DAA520;
+    }
+
+    .divAlinhamentoFlexInformacoes {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    .apresentacaoCarrosselPacotes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        position: absolute;
+        top: 140%;
+        left: 2%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPacotes2 {
+
+        position: absolute;
+        top: 150%;
+        left: 2%;
+        z-index: 2;
+    }
+
+    .h1ApresentaçãoPacotes2 {
+        font-size: 1.7rem;
+
+    }
+
+    .coresFrasesDiferentes {
+        color: #DAA520;
+    }
+
+    .botaoCarrossel {
+        position: absolute;
+        top: 35%;
+        margin-left: -1%;
+        margin-right: -1%;
+        width: 0px;
+
+
+    }
+
+    .botaoCarrosselMedio {
+        position: absolute;
+        top: 19%;
+        margin-left: -7%;
+        margin-right: -7%;
+        width: 0px;
+    }
+
+    .imagemBotaoCarrossel {
+        width: 40px;
+        color: #DAA520
+    }
+
+    .botaoCarrosselPequeno {
+        position: absolute;
+        top: 35%;
+        margin-left: -1%;
+        margin-right: -1%;
+        width: 0px;
+    }
+
+    .carrosel2 {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 77vw;
+        left: -21vw;
+        z-index: 2;
+
+
+    }
+
+    .carroselPai2 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+
+    }
+   
+    .carroselFilho2 {
+        height: 422px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilho2:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .apresentacaoCarrosselPassagens {
+        position: absolute;
+        top: 145%;
+        left: 65%;
+    }
+
+    .apresentacaoCarrosselPassagens2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 135%;
+        left: 65%;
+        gap: 10px;
+    }
+
+    .h1ApresentaçãoPassagens2 {
+        font-size: 1.7rem;
+    }
+
+    .h1ApresentaçãoHoteis2 {
+        font-size: 1.7rem;
+    }
+
+    .h2estiloTituloSessaoApresentacaoHoteis {
+        text-align: center;
+    }
+
+    .divAlinhamentoFlexInformacoes2 {
+
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .paragrafoDescricaoHoteis {
+        margin-left: 0%;
+        color: #DAA520;
+    }
+
+    .paragrafoCidadeHoteis {
+
+        margin: 0;
+        font-size: .9rem;
+    }
+
+    .coresParagrafoDiferentes {
+        color: #DAA520;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .tituloCidadeHoteis {
+        margin-left: 10%;
+    }
+
+    .alinhamentoInformarcoesVoos {
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .alinhamentoInformacoesHoteis {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+        background-color: #121115;
+    }
+
+    .h2Rodape {
+        font-size: 1.8rem;
+        color: #DAA520;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .rodapeContato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+        color: white;
+    }
+
+    .rodapeLocalizacao {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .paragrafoSublinhado {
+        color: #DAA520;
+        font-weight: bold;
+    }
+
+    .rodapeBtn {
+        border: none;
+        width: 246px;
+        height: 52px;
+        border-radius: 5px;
+        background-color: #DAA520;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+    
+.estiloCorpoFilhoPrincipal {
+    border-right: 1px dashed white;
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.estiloCorpoFilhoSubSessao {
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoModal {
+    font-weight: 500;
+    color: white;
+    margin-top: -5px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal1 {
+    width: auto;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.estiloDivAlinhaElementosTempoDeViagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafoModalVooDireto {
+    margin-top: -15%;
+    color: #DAA520;
+    font-weight: 700;
+}
+
+.paragrafoModalVooDireto1 {
+    color: white;
+    border-bottom: 2px solid #DAA520;
+}
+
+.coresDiferentes {
+    color: #DAA520;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+
+}
+
+.estiloAlinhaIformacoesDiaVoo {
+    display: flex;
+    flex-direction:row;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+
+.paragrafoValorTotal {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.estiloAlinhaInformacoesTaxa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paragrafoValorTotal2 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+.estiloAlinhaInformacoesValorTotal {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.modalPaiDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.alinhaBotao {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoComprar {
+    border: none;
+    width: 146px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.botaoComprar:hover {
+    transform: translateY(-1px);
+    transition: transform .7s;
+    -webkit-box-shadow: 0px 0px 10px 0px #DAA520;
+    -moz-box-shadow: 0px 0px 10px 0px #DAA520;
+    box-shadow: 0px 0px 10px 0px #DAA520;
+}
+
+.alinhaElementos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhaDadosPrincipais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divPagamentoPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+    background-color: #121115;
+    padding: 20px;
+    height: 0;
+    transition: height .5s ease-out;
+
+}
+
+.divPagamentoPai.mostrar {
+    height: 250px;
+
+}
+
+.inputs {
+    background-color: #121115;
+    border: .5px solid #DAA520;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.inputs:focus {
+    color: #DAA520;
+    background-color: #121115;
+    border: #DAA520;
+    color: white;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+input[type="text"] {
+    color: white;
+}
+
+input[type="number"] {
+    color: white;
+}
+
+.h2tituloPagamento {
+    color: #DAA520;
+    font-size: 1rem;
+}
+
+.alinhaBagagem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.iconBagagem {
+    color: #DAA520;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 414px) {
+    .containerCabecalho {
+        width: 100vw;
+        height: auto;
+    }
+
+    .styleContainerPai {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .divTitulo {
+
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-title {
+        font-size: 2.3rem;
+        line-height: 1em;
+        font-weight: 800;
+    }
+
+    .blend {
+        mix-blend-mode: exclusion !important;
+        color: #efefef;
+        /* Cor do texto no modo de mistura */
+        position: absolute;
+        z-index: 2;
+    }
+
+    .estiloSessaApresentacao {
+
+        display: flex;
+        gap: 500px;
+        flex-direction: column;
+
+    }
+
+    .alinhamentoTituloSessaoApresentacao {
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+
+    }
+
+    .h2estiloTituloSessaoApresentacao {
+        text-align: center;
+        color: #DAA520;
+        font-size: 1.3rem;
+
+    }
+
+    .estiloTituloSessaoApresentacao {
+        text-align: center;
+        font-size: 2.3rem;
+        color: white;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .estiloDivOndas {
+
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        background-color: #121115;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+        z-index: 1;
+    }
+
+    .margin-topDivOndas {
+        margin-top: -125%;
+    }
+
+
+    .estiloDivOndas::before {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas::after {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 45vw;
+        border-top-left-radius: 15vw;
+
+    }
+
+
+
+    .estiloAlinhaDIvOndas2 {
+        width: 100vw;
+        height: 55vw;
+        background-color: #121115;
+        position: relative;
+    }
+
+    .estiloDivOndas2 {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        background-color: white;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+    }
+
+    .estiloDivOndas2::before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas2::after {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+        border-top-left-radius: 13vw;
+
+    }
+
+
+    .carrosel {
+        width: auto;
+        position: relative;
+        top: 160vw;
+        left: 0vw;
+        z-index: 2;
+
+    }
+
+    .carroselPai {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        margin: 0px;
+    }
+
+    .estiloCorpoFilhoPrincipal {
+
+        height: 222px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight {
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(36, 148, 153);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .carroselFilho:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .elementosServicosEspecializadoFlex {
+        width: 170px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .imagemPacotes {
+        position: relative;
+        top: -15%;
+        width: 225px;
+        height: 200px;
+        background-size: contain;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transition: transform 0.3s
+    }
+
+    .elementosServicosEspecializadoFlex:hover .imagemPacotes {
+        transform: scale(1.1);
+    }
+
+    .informacoesPacotes {
+        width: 100%;
+        display: flex;
+        gap: 25px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .iconAviao {
+        height: 20px;
+    }
+
+    .tituloCidadePacotes {
+        margin-left: 10%;
+        font-size: .2rem;
+
+    }
+
+    .paragrafoCidadePacotes {
+        margin-left: 10%;
+        font-size: .9rem;
+        color: #DAA520;
+    }
+
+    .divAlinhamentoFlexInformacoes {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    .apresentacaoCarrosselPacotes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        position: absolute;
+        top: 102%;
+        left: 4%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPacotes2 {
+
+        position: absolute;
+        top: 110%;
+        left: 3%;
+        z-index: 2;
+    }
+
+    .h1ApresentaçãoPacotes2 {
+        font-size: 1.7rem;
+
+    }
+
+    .coresFrasesDiferentes {
+        color: #DAA520;
+    }
+
+    .botaoCarrossel {
+        position: absolute;
+        top: 95%;
+        margin-left: -1%;
+        margin-right: -1%;
+        width: 0px;
+
+
+    }
+
+    .botaoCarrosselMedio {
+        position: absolute;
+        top: 19%;
+        margin-left: -7%;
+        margin-right: -7%;
+        width: 0px;
+    }
+
+    .imagemBotaoCarrossel {
+        width: 40px;
+        color: #DAA520
+    }
+
+    .botaoCarrosselPequeno {
+        position: absolute;
+        top: 35%;
+        margin-left: -1%;
+        margin-right: -1%;
+        width: 0px;
+    }
+
+    .carrosel2 {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 160vw;
+        left: 0vw; 
+        z-index: 2;
+
+
+    }
+
+    .carroselPai2 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+
+    }
+
+    .carroselFilho2 {
+        height: 422px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilho2:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .apresentacaoCarrosselPassagens {
+        position: absolute;
+        top: 110%;
+        left: 30%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPassagens2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        position: absolute;
+        top: 102%;
+        left: 30%;
+        z-index: 2;
+        gap: 10px;
+    }
+
+    .h1ApresentaçãoPassagens2 {
+        font-size: 1.7rem;
+        white-space: nowrap; /* Impede que o texto quebre automaticamente */
+    }
+
+    .h1ApresentaçãoHoteis2 {
+        font-size: 1.7rem;
+    }
+
+    .h2estiloTituloSessaoApresentacaoHoteis {
+        text-align: center;
+    }
+
+    .divAlinhamentoFlexInformacoes2 {
+
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .paragrafoDescricaoHoteis {
+        margin-left: 0%;
+        color: #DAA520;
+    }
+
+    .paragrafoCidadeHoteis {
+
+        margin: 0;
+        font-size: .9rem;
+    }
+
+    .coresParagrafoDiferentes {
+        color: #DAA520;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .tituloCidadeHoteis {
+        margin-left: 10%;
+    }
+
+    .alinhamentoInformarcoesVoos {
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .alinhamentoInformacoesHoteis {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2%;
+        background-color: #121115;
+    }
+
+    .h2Rodape {
+        font-size: 1.8rem;
+        color: #DAA520;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .rodapeContato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5%;
+        color: white;
+    }
+
+    .rodapeLocalizacao {
+        font-size: 1rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .paragrafoSublinhado {
+        color: #DAA520;
+        font-weight: bold;
+    }
+
+    .rodapeBtn {
+        border: none;
+        width: 246px;
+        height: 52px;
+        border-radius: 5px;
+        background-color: #DAA520;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+
+    
+.modalContent {
+    width: 85vw;
+    background-color: #121115;
+
+}
+
+.modalHeader {
+    border-bottom: 1px solid #121115;
+    background-color: #DAA520;
+    color: #121115;
+    font-weight: 800;
+}
+
+.modalFooter {
+    border-top: 1px solid #121115;
+    background-color: #DAA520;
+}
+
+.estilocorpoModalPai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #DAA520;
+    padding: 0px;
+    padding-top: 40px;
+    margin-top: 5%;
+}
+    
+.estiloCorpoFilhoPrincipal {
+    border-right: 1px dashed white;
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.estiloCorpoFilhoSubSessao {
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoModal {
+    font-weight: 500;
+    color: white;
+    margin-top: -5px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal1 {
+    width: auto;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.estiloDivAlinhaElementosTempoDeViagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafoModalVooDireto {
+    margin-top: -15%;
+    color: #DAA520;
+    font-weight: 700;
+}
+
+.paragrafoModalVooDireto1 {
+    color: white;
+    border-bottom: 2px solid #DAA520;
+}
+
+.coresDiferentes {
+    color: #DAA520;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+
+}
+
+.estiloAlinhaIformacoesDiaVoo {
+    display: flex;
+    flex-direction:row;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+
+.paragrafoValorTotal {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.estiloAlinhaInformacoesTaxa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paragrafoValorTotal2 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+.estiloAlinhaInformacoesValorTotal {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.modalPaiDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.alinhaBotao {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoComprar {
+    border: none;
+    width: 146px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.botaoComprar:hover {
+    transform: translateY(-1px);
+    transition: transform .7s;
+    -webkit-box-shadow: 0px 0px 10px 0px #DAA520;
+    -moz-box-shadow: 0px 0px 10px 0px #DAA520;
+    box-shadow: 0px 0px 10px 0px #DAA520;
+}
+
+.alinhaElementos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhaDadosPrincipais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divPagamentoPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+    background-color: #121115;
+    padding: 20px;
+    height: 0;
+    transition: height .5s ease-out;
+
+}
+
+.divPagamentoPai.mostrar {
+    height: 250px;
+
+}
+
+.inputs {
+    background-color: #121115;
+    border: .5px solid #DAA520;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.inputs:focus {
+    color: #DAA520;
+    background-color: #121115;
+    border: #DAA520;
+    color: white;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+input[type="text"] {
+    color: white;
+}
+
+input[type="number"] {
+    color: white;
+}
+
+.h2tituloPagamento {
+    color: #DAA520;
+    font-size: 1rem;
+}
+
+.alinhaBagagem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.iconBagagem {
+    color: #DAA520;
+
+}
+
+
+}
+
+@media screen and (max-width:413px ) and (min-width: 320px){
+    .divMenuCabecalhoLigth{
+        width: 100vw;
+    }
+    .containerCabecalho {
+        width: 100vw;
+        height: auto;
+    }
+    .botaoMenu{
+        height: 6vh;
+    }
+    .styleContainerPai {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .divTitulo {
+
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-title {
+        font-size: 2.3rem;
+        line-height: 1em;
+        font-weight: 800;
+    }
+
+    .blend {
+        mix-blend-mode: exclusion !important;
+        color: #efefef;
+        /* Cor do texto no modo de mistura */
+        position: absolute;
+        z-index: 2;
+    }
+    .modalLightBlend > .hero-title{
+        font-size: 2rem;
+    }
+
+    .estiloSessaApresentacao {
+
+        display: flex;
+        gap: 500px;
+        flex-direction: column;
+
+    }
+
+    .alinhamentoTituloSessaoApresentacao {
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+
+    }
+
+    .h2estiloTituloSessaoApresentacao {
+        text-align: center;
+        color: #DAA520;
+        font-size: 1.3rem;
+
+    }
+
+    .estiloTituloSessaoApresentacao {
+        text-align: center;
+        font-size: 2.3rem;
+        color: white;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .estiloDivOndas {
+
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        background-color: #121115;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+        z-index: 1;
+    }
+
+    .margin-topDivOndas {
+        margin-top: -160%;
+    }
+
+
+    .estiloDivOndas::before {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas::after {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 45vw;
+        border-top-left-radius: 15vw;
+
+    }
+
+
+
+    .estiloAlinhaDIvOndas2 {
+        width: 100vw;
+        height: 50vw;
+        background-color: #121115;
+        position: relative;
+    }
+
+    .estiloDivOndas2 {
+  
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        background-color: white;
+        border-bottom-right-radius: 15vw;
+        position: relative;
+    }
+
+    .estiloDivOndas2::before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .estiloDivOndas2::after {
+        content: "";
+        background-color: #121115;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+        border-top-left-radius: 13vw;
+
+    }
+
+
+    .carrosel {
+
+        width: auto;
+ 
+        position: relative;
+        top: 200vw;
+        left: 0vw;
+        z-index: 2;
+
+    }
+
+    .carroselPai {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+        margin: 0px;
+    }
+
+    .estiloCorpoFilhoPrincipal {
+
+        height: 222px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+     .carroselFilhoLight {
+        height: auto ;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(36, 148, 153);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilhoLight:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .carroselFilho:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .elementosServicosEspecializadoFlex {
+        width: 150px;
+        height: 415px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .imagemPacotes {
+        position: relative;
+        top: -15%;
+        width: 225px;
+        height: 200px;
+        background-size: contain;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transition: transform 0.3s
+    }
+
+    .elementosServicosEspecializadoFlex:hover .imagemPacotes {
+        transform: scale(1.1);
+    }
+
+    .informacoesPacotes {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        gap: 25px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .iconAviao {
+        height: 20px;
+    }
+
+    .tituloCidadePacotes {
+        margin-left: 10%;
+        font-size: .2rem;
+
+    }
+
+    .paragrafoCidadePacotes {
+        margin-left: 10%;
+        font-size: .9rem;
+        color: #DAA520;
+    }
+
+    .divAlinhamentoFlexInformacoes {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    .apresentacaoCarrosselPacotes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        position: absolute;
+        top: 102%;
+        left: 4%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPacotes2 {
+
+        position: absolute;
+        top: 110%;
+        left: 3%;
+        z-index: 2;
+    }
+
+    .h1ApresentaçãoPacotes2 {
+        font-size: 1.5rem;
+
+    }
+
+    .coresFrasesDiferentes {
+        color: #DAA520;
+    }
+
+    .botaoCarrossel {
+        position: absolute;
+        top: 405%;
+        margin-left: 45%;
+        margin-right: 45%;
+        width: -10px;
+    
+
+
+    }
+
+    .botaoCarrosselMedio {
+        position: absolute;
+        top: 19%;
+        margin-left: -7%;
+        margin-right: -7%;
+        width: 0px;
+    }
+
+    .imagemBotaoCarrossel {
+        width: 20px;
+        color: #DAA520
+    }
+
+    .botaoCarrosselPequeno {
+        position: absolute;
+        top: 35%;
+        margin-left: -1%;
+        margin-right: -1%;
+        width: 0px;
+    }
+    .botaoCarrosselExtraPequeno{
+        position: absolute;
+        top: 77%;
+        margin-left: 45%;
+        margin-right: 45%;
+        width: -10px;
+    
+    }
+
+    .carrosel2 {
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 200vw;
+        left: 0vw;
+        z-index: 2;
+
+
+    }
+
+    .carroselPai2 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 15px;
+
+    }
+
+    .carroselFilho2 {
+        height: 422px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: #121115;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .carroselFilho2:hover {
+
+        transform: translateY(-2px);
+        transition: transform .3s;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+        box-shadow: 0px 0px 15px 1px rgba(218, 171, 50, 1);
+    }
+
+    .apresentacaoCarrosselPassagens {
+        position: absolute;
+        top: 110%;
+        left: 24%;
+        z-index: 2;
+    }
+
+    .apresentacaoCarrosselPassagens2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        position: absolute;
+        top: 102%;
+        left: 24%;
+        z-index: 2;
+        gap: 10px;
+    }
+
+    .h1ApresentaçãoPassagens2 {
+        font-size: 1.5rem;
+        white-space: nowrap; /* Impede que o texto quebre automaticamente */
+    }
+
+    .h1ApresentaçãoHoteis2 {
+        font-size: 1.4rem;
+    }
+
+    .h2estiloTituloSessaoApresentacaoHoteis {
+        text-align: center;
+    }
+
+    .divAlinhamentoFlexInformacoes2 {
+
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .paragrafoDescricaoHoteis {
+        margin-left: 0%;
+        color: #DAA520;
+    }
+
+    .paragrafoCidadeHoteis {
+
+        margin: 0;
+        font-size: .9rem;
+    }
+
+    .coresParagrafoDiferentes {
+        color: #DAA520;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .tituloCidadeHoteis {
+        margin-left: 10%;
+    }
+
+    .alinhamentoInformarcoesVoos {
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .alinhamentoInformacoesHoteis {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2%;
+        background-color: #121115;
+    }
+
+    .h2Rodape {
+        font-size: 1.6rem;
+        color: #DAA520;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .rodapeContato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5%;
+        color: white;
+    }
+
+    .rodapeLocalizacao {
+        font-size: .9rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .paragrafoSublinhado {
+        color: #DAA520;
+        font-weight: bold;
+    }
+
+    .rodapeBtn {
+        border: none;
+        width: 246px;
+        height: 52px;
+        border-radius: 5px;
+        background-color: #DAA520;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+    
+.modalLight {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: rgb(36, 148, 153);
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.modalLight::before {
+    content: "";
+    background-color: rgb(36, 148, 153);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.modalLight::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 45vw;
+    border-top-left-radius: 15vw;
+
+}
+
+
+
+.modalLight2estiloAlinhaDIvOndas2 {
+    width: 100vw;
+    height: 55vw;
+    background-color: rgb(36, 148, 153);
+    position: relative;
+}
+
+.modalLight2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    border-bottom-right-radius: 15vw;
+    position: relative;
+}
+
+.modalLight2::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+}
+
+.modalLight2::after {
+    content: "";
+    background-color: rgb(36, 148, 153);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15vw;
+    height: 15vw;
+    border-top-left-radius: 15vw;
+
+}
+
+.modalLight2Footer {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    background-color: rgb(36, 148, 153);
+}
+ 
+.modalContent {
+    width: 95vw;
+    background-color: #121115;
+
+}
+
+.modalHeader {
+    border-bottom: 1px solid #121115;
+    background-color: #DAA520;
+    color: #121115;
+    font-weight: 800;
+}
+
+.modalFooter {
+    border-top: 1px solid #121115;
+    background-color: #DAA520;
+}
+
+.estilocorpoModalPai {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #DAA520;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin-top: 5%;
+}
+    
+.estiloCorpoFilhoPrincipal {
+    border-right: 1px dashed white;
+    width: 100vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.estiloCorpoFilhoSubSessao {
+    width: 30vw;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121115;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragrafoModal {
+    font-weight: 500;
+    color: white;
+    margin-top: -5px;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal1 {
+    width: auto;
+}
+
+.estiloSubDivAlinhamentoFilhoPrincipal2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.estiloDivAlinhaElementosTempoDeViagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafoModalVooDireto {
+    margin-top: -15%;
+    color: #DAA520;
+    font-weight: 700;
+}
+
+.paragrafoModalVooDireto1 {
+    color: white;
+    border-bottom: 2px solid #DAA520;
+}
+
+.coresDiferentes {
+    color: #DAA520;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.estiloParagrafoInformacoesHora {
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+
+}
+
+.estiloAlinhaIformacoesDiaVoo {
+    display: flex;
+    flex-direction:row;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+
+.paragrafoValorTotal {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.estiloAlinhaInformacoesTaxa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.paragrafoValorTotal2 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-top: -10%;
+}
+
+.estiloAlinhaInformacoesValorTotal {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.modalPaiDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.alinhaBotao {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.botaoComprar {
+    border: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #DAA520;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.botaoComprar:hover {
+    transform: translateY(-1px);
+    transition: transform .7s;
+    -webkit-box-shadow: 0px 0px 10px 0px #DAA520;
+    -moz-box-shadow: 0px 0px 10px 0px #DAA520;
+    box-shadow: 0px 0px 10px 0px #DAA520;
+}
+
+.alinhaElementos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhaDadosPrincipais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divPagamentoPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+    background-color: #121115;
+    padding: 20px;
+    height: 0;
+    transition: height .5s ease-out;
+
+}
+
+.divPagamentoPai.mostrar {
+    height: 250px;
+
+}
+
+.inputs {
+    background-color: #121115;
+    border: .5px solid #DAA520;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.inputs:focus {
+    color: #DAA520;
+    background-color: #121115;
+    border: #DAA520;
+    color: white;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+input[type="text"] {
+    color: white;
+}
+
+input[type="number"] {
+    color: white;
+}
+
+.h2tituloPagamento {
+    color: #DAA520;
+    font-size: 1rem;
+}
+
+.alinhaBagagem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.iconBagagem {
+    color: #DAA520;
+
+}
+}

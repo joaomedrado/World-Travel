@@ -1,0 +1,252 @@
+{
+  "cidadesPacotes": [
+    {
+      "id": 101,
+      "nome": "Rio de Janeiro",
+      "imagemCidade": "imagens/shutterstock_1471556480-scaled.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1200,
+      "diaVoo": 14,
+      "mesVoo": "nov",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "SDU",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    },
+    {
+      "id": 102,
+      "nome": "Florianópolis",
+      "imagemCidade": "imagens/Florianapolis-visitare.jpg",
+      "imagemHotel": "",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 957,
+      "siglaAeroporto": "FLR",
+      "horaIda": "12:15",
+      "horaChegada": "14:05",
+      "totalHoraVoo": "1h 50min",
+      "diaVoo": 27,
+      "mesVoo": "nov",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100
+    }
+  ],
+  "cidadesPacotes2": [
+    {
+      "id": 103,
+      "nome": "Porto de Galinhas",
+      "imagemCidade": "imagens/portoDeGalinhas.png",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1204,
+      "diaVoo": 20,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "REC",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    },
+    {
+      "id": 104,
+      "nome": "Lençois Maranhenses",
+      "imagemCidade": "imagens/capa-lencois.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1485,
+      "diaVoo": 23,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "SLZ",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    }
+  ],
+  "cidadesPassagens": [
+    {
+      "id": 105,
+      "nome": "São Paulo",
+      "imagemCidade": "imagens/imagemSaoPaulo.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1204,
+      "diaVoo": 20,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "GRU",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    },
+    {
+      "id": 106,
+      "nome": "Manaus",
+      "imagemCidade": "imagens/imagemAmazonas.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1345,
+      "diaVoo": 9,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "MAO",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    }
+  ],
+  "cidadesPassagens2": [
+    {
+      "id": 107,
+      "nome": "Gramados",
+      "imagemCidade": "imagens/imagemGramados.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1504,
+      "diaVoo": 21,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "QRP",
+      "horaIda": "10:15",
+      "horaChegada": "12:05",
+      "totalHoraVoo": "1h 50min"
+    },
+    {
+      "id": 108,
+      "nome": "Cuiabá",
+      "imagemCidade": "imagens/imagemCuiaba.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 890,
+      "diaVoo": 29,
+      "mesVoo": "out",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "CGB",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "totalHoraVoo": "1h 50min"
+    }
+  ],
+  "cidadesPassagens3": [
+    {
+      "id": 109,
+      "nome": "Lisboa",
+      "imagemCidade": "imagens/imagemLisboa.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 5500,
+      "diaVoo": 12,
+      "mesVoo": "dez",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "ICAO",
+      "horaIda": "22:35",
+      "horaChegada": "11:10",
+      "totalHoraVoo": "9h 35min"
+    },
+    {
+      "id": 110,
+      "nome": "Buenos Aires",
+      "imagemCidade": "imagens/imagemBuenosAires.jpg",
+      "imagemHotel": "imagens/conheca-a-historia-do-copacabana-palace-tricurioso-11.jpg",
+      "imagemIconAviao": "imagens/aviao (3).png",
+      "preco": 1882,
+      "diaVoo": 17,
+      "mesVoo": "nov",
+      "anoVoo": 2023,
+      "taxaEmbarque": 62,
+      "taxaServico": 100,
+      "siglaAeroporto": "AEP",
+      "horaIda": "13:15",
+      "horaChegada": "16:15",
+      "totalHoraVoo": "3h 00min"
+    }
+  ],
+  "cidadesHoteis": [
+    {
+      "id": 111,
+      "nome": "Paris",
+      "imagemHotel": "imagens/imagemLeMeuriceParis.jpg",
+      "preco": 7000,
+      "descricao": "Le Meurice"
+    },
+    {
+      "id": 112,
+      "nome": "Rio de Janeiro",
+      "imagemHotel": "imagens/imagemHotelCopaCabana.jpg",
+      "preco": 5090,
+      "descricao": "Copacabana Palace"
+    }
+  ],
+  "cidadesHoteis2": [
+    {
+      "id": 113,
+      "nome": "Porto Alegre",
+      "imagemHotel": "imagens/imagemHotelDevillePortoAlegre.jpg",
+      "preco": 890,
+      "descricao": "Hotel Deville"
+    },
+    {
+      "id": 114,
+      "nome": "Brasilía",
+      "imagemHotel": "imagens/imagemHotelRoyalTulip.jpg",
+      "preco": 1500,
+      "descricao": "Royal Tulip Brasilía"
+    }
+  ],
+  "cidadesHoteis3": [
+    {
+      "id": 115,
+      "nome": "Maragogi",
+      "imagemHotel": "imagens/imagemMaragogi.jpg",
+      "preco": 1090,
+      "descricao": "Grand Oca Maragogi"
+    },
+    {
+      "id": 116,
+      "nome": "Manso ",
+      "imagemHotel": "imagens/imagemMalaiManso.jpg",
+      "preco": 4922,
+      "descricao": "Malai Manso"
+    }
+  ],
+  "Compras": [
+    {
+      "nomeCliente": "joao",
+      "emailCliente": "joao@teste.com",
+      "cpfCliente": "234324443",
+      "destino": "Porto de Galinhas",
+      "dataVoo": "20dez2023",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "id": 1
+    },
+    {
+      "nomeCliente": "joao",
+      "emailCliente": "joao@teste.com",
+      "cpfCliente": "435435454",
+      "destino": "Porto de Galinhas",
+      "dataVoo": "20dez2023",
+      "horaIda": "07:15",
+      "horaChegada": "09:05",
+      "id": 2
+    }
+  ]
+}

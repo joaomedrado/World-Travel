@@ -1,0 +1,15 @@
+{
+  "name": "atividades",
+  "version": "1.0.0",
+  "main": "ClassesDom.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"defer></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="ClassesDom.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body id="body">
+  <header class="styleContainerPai" id="containerPai">
+    <video class="estiloVideo" style="transform: rotate(180deg);" autoplay="" playsinline="" loop="" muted="" id="video-bg">
+      <source src="https://tactusmarketing.com/wp-content/uploads/tactus-waves-hero.mp4" type="video/mp4" class="videoBlack">
+      <source src="https://tactusmarketing.com/wp-content/uploads/tactus-waves-hero.mp4" type="video/mp4" class="videoBlack" >
+    </video>
+    <nav class="navbar  containerCabecalho  fixed-top">
+      <div class="container-fluid ">
+        <h1 class="tituloCabecalho">WT</h1>
+        <div class="alianhamentoBotaoCabecalho">
+          <label class="switch"  >
+            <input type="checkbox" name="nameCheck" id="idModalLight"  >
+            <span class="slider"></span>
+        </label>
+          <button class="navbar-toggler bg-warning botaoMenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+        </div>
+        <div class="divMenuCabecalho offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title tituloCabecalho" id="offcanvasNavbarLabel">World Travel</h5>
+            <button type="button" class=" bg-warning btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="divTitulo blend" data-aos="fade-down"  data-aos-duration="1000">
+      <h1 class="hero-title">Explore o mundo com <br> conforto e sofisticação</h1>
+    </div>
+  
+  
+  </header>
+  <section id="idSessaoApresentacaoAtributos" class="estiloSessaApresentacao">
+
+    <div id="idDivOndas" class="estiloDivOndas">
+
+      <div class="alinhamentoTituloSessaoApresentacao">
+        <h1 class="estiloTituloSessaoApresentacao" id="idTituloSessaoApresentao"data-aos="fade-down"  data-aos-duration="1000">Conheça nossos serviços</h1>
+        <h2 class="h2estiloTituloSessaoApresentacao"data-aos="fade-down"  data-aos-duration="1000">Escolha a melhor maneira de viajar!!!</h2>
+      </div>
+      <div class="apresentacaoCarrosselPacotes" data-aos="fade-right" data-aos-duration="1000">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="50" fill="currentColor"
+          class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16">
+          <path
+            d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2H7ZM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1H6ZM3 13V3h1v10H3Zm9 0V3h1v10h-1Z" />
+        </svg>
+        <h4>Pacotes</h4>
+      </div>
+      <div class="apresentacaoCarrosselPacotes2"data-aos="fade-right" data-aos-duration="1000">
+        <h1 class="h1ApresentaçãoPacotes2">Uma seleção de pacotes <br> para suas <span class="coresFrasesDiferentes">próximas férias</span></h1>
+      </div>
+
+      <div id="carouselExampleControlsNoTouching1" class="carousel slide carrosel" data-bs-touch="false" data-aos="fade-right" data-aos-duration="1000">
+        <div id="carroselInner" class="carousel-inner">
+          <div id="carroselItem1" class="carousel-item active">
+            <div id="idCarrosselPai" class="carroselPai">
+
+            </div>
+          </div>
+
+          <div id="carrosselItemDesative1" class="carousel-item active">
+              <div id="idCarrosselPai22" class="carroselPai">
+
+              </div>
+          </div>
+        </div>
+        <button class=" botaoCarrossel carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 20.png" alt="">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class=" botaoCarrossel carousel-control-next" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="next">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 19.png" alt="">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    <div class="estiloAlinhaDIvOndas2" id="idAlinhaDivOndas2Atributos">
+      <div class="estiloDivOndas2" id="idDivOndas2"></div>
+    </div>
+
+
+
+    <div  id="idDivOndas" class="estiloDivOndas margin-topDivOndas">
+
+      <div class="alinhamentoTituloSessaoApresentacao">
+        <h1 class="estiloTituloSessaoApresentacao" id="idTituloSessaoApresentao"data-aos="fade-down"  data-aos-duration="1000">Confira nossa ofertas</h1>
+        <h2 class="h2estiloTituloSessaoApresentacao"data-aos="fade-down"  data-aos-duration="1000">Explore Nossas Ofertas de Viagens Imperdíveis!</h2>
+      </div>
+      <div class="apresentacaoCarrosselPassagens2" data-aos="fade-left" data-aos-duration="1000">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="55" fill="currentColor"
+          class="bi bi-ticket-perforated-fill" viewBox="0 0 16 16">
+          <path
+            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6V4.5Zm4-1v1h1v-1H4Zm1 3v-1H4v1h1Zm7 0v-1h-1v1h1Zm-1-2h1v-1h-1v1Zm-6 3H4v1h1v-1Zm7 1v-1h-1v1h1Zm-7 1H4v1h1v-1Zm7 1v-1h-1v1h1Zm-8 1v1h1v-1H4Zm7 1h1v-1h-1v1Z" />
+        </svg>
+        <h4>Passagens</h4>
+      </div>
+      <div class="apresentacaoCarrosselPassagens"data-aos="fade-left" data-aos-duration="1000">
+        <h1  class="h1ApresentaçãoPassagens2">Ofertas de voos com <br> <span class="coresFrasesDiferentes">preços arrasadores</span></h1>
+      </div>
+
+      <div id="carouselExampleControlsNoTouching3" class="carousel slide carrosel2" data-bs-touch="false"data-aos="fade-left" data-aos-duration="1000">
+        <div id="carroselInner" class="carousel-inner">
+          <div id="carroselItemPassagens" class="carousel-item active">
+            <div id="idCarrosselPaiPassagens" class="carroselPai2">
+
+            </div>
+          </div>
+
+          <div id="carrosselItemDesativePassagens" class="carousel-item active">
+              <div id="idCarrosselPaiPassagens2" class="carroselPai2">
+
+              </div>
+          </div>
+          <div id="carrosselItemDesativePassagens2" class="carousel-item active">
+            <div id="idCarrosselPaiPassagens3" class="carroselPai2">
+
+            </div>
+        </div>
+        </div>
+        <button class=" botaoCarrossel botaoCarrosselMedio botaoCarrosselPequeno botaoCarrosselExtraPequeno carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 20.png" alt="">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class=" botaoCarrossel botaoCarrosselMedio botaoCarrosselPequeno botaoCarrosselExtraPequeno carousel-control-next" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 19.png" alt="">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      </div>
+    </div>
+    <div class="estiloAlinhaDIvOndas2" id="idAlinhaDivOndas2Atributos">
+      <div class="estiloDivOndas2" id="idDivOndas2"></div>
+    </div>
+
+
+
+
+
+
+
+    <div  id="idDivOndas" class="estiloDivOndas margin-topDivOndas">
+
+      <div class="alinhamentoTituloSessaoApresentacao">
+        <h1 class="estiloTituloSessaoApresentacao h2estiloTituloSessaoApresentacaoHoteis" id="idTituloSessaoApresentao"data-aos="fade-down"  data-aos-duration="1000">Onde o conforto encontra a jornada</h1>
+        <h2 class="h2estiloTituloSessaoApresentacao "data-aos="fade-down"  data-aos-duration="1000">Descubra seu lugar favorito para ficar!!!</h2>
+      </div>
+      <div class="apresentacaoCarrosselPacotes" data-aos="fade-right" data-aos-duration="1000">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="50" fill="currentColor" class="bi bi-building-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H3Zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Z" />
+        </svg>
+        <h4>Hoteis</h4>
+      </div>
+      <div class="apresentacaoCarrosselPacotes2" data-aos="fade-right" data-aos-duration="1000">
+        <h1  class="h1ApresentaçãoHoteis2">Encontre a <span class="coresFrasesDiferentes">hospedagem <br> perfeita</span> com os melhores <br>
+          preços</span></h1>
+      </div>
+
+      <div id="carouselExampleControlsNoTouching4" class="carousel slide carrosel" data-bs-touch="false" data-aos="fade-right" data-aos-duration="1000">
+        <div id="carroselInner" class="carousel-inner">
+          <div id="carroselItemHoteis" class="carousel-item active">
+            <div id="idCarrosselPaiHoteis" class="carroselPai2">
+
+            </div>
+          </div>
+
+          <div id="carrosselItemDesativeHoteis" class="carousel-item active">
+              <div id="idCarrosselPaiHoteis2" class="carroselPai2">
+
+              </div>
+          </div>
+          <div id="carrosselItemDesativeHoteis2" class="carousel-item active">
+            <div id="idCarrosselPaiHoteis3" class="carroselPai2">
+
+            </div>
+        </div>
+        </div>
+        <button class=" botaoCarrossel carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 20.png" alt="">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class=" botaoCarrossel carousel-control-next" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
+          <img class="imagemBotaoCarrossel" src="imagens/Group 19.png" alt="">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="estiloAlinhaDIvOndas2" id="idAlinhaDivOndas2Atributos">
+      <div class="estiloDivOndas2" id="idDivOndas2"></div>
+    </div>
+    
+
+    
+
+  </section>
+  <div id="idFooter" class="footer ">
+    <div class="rodapeContato">
+      <h2 class="h2Rodape">Entre em contato <br> conosco!</h2>
+      <p class="paragrafoRodape">Entre em contato com o ST <br> para tirar suas <span class="paragrafoSublinhado">
+          dúvidas </span>e contar suas
+        <br> sugestões.
+      </p>
+      <a class="rodapeBtn" href="https://api.whatsapp.com/send?phone=984152703" target="_blank"><img
+          src="imagens/whatsapp 1.png" alt=""> Entre em contato</a>
+
+      <p class="paragrafoRodape">©2023 Star Travel</p>
+      <p class="paragrafoRodape"><span class="paragrafoSublinhado">Todos os direitos reservados.</span></p>
+    </div>
+    <div class="rodapeLocalizacao">
+      <p class="paragrafoRodape">65 98415-2703</p>
+      <p class="paragrafoRodape">Av.Paulista , S/N - Bairro Bela Vista</p>
+      <p class="paragrafoRodape">contato@StarTravel.com</p>
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-lg modalAlinha">
+      <div class="modal-content modalContent" >
+        <div class="modal-header modalHeader">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Melhor Opção</h1>
+          <button id="btnClose" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="corpoModalPai" class="modal-body estilocorpoModalPai" >
+
+        </div>
+        <div class="modal-footer modalFooter">
+          <button id="idBtnClose" type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Cancelar</button>
+          <!-- <button id="idBtnComprar" type="button"   data-bs-toggle="modal"  data-bs-target="#staticBackdrop" class="btn btn-success">Comprar</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="liveAlertPlaceholder"></div>
+  
+  </div>
+
+
+  <div id="meuAlert" class="alert alert-success d-none" role="alert">
+    A simple success alert—check it out!
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
